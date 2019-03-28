@@ -7,7 +7,7 @@ public class Boid : MonoBehaviour
 {
     public Vector3 desiredVelocity;
     public Transform target;
-    private Rigidbody rb;
+    public Rigidbody rb;
     public float slowingDistance;
     [Range(0,20)]
     public float maxSpeed;
